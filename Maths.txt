@@ -1,0 +1,23 @@
+Maths
+2
+1
+0
+1
+Combien font 7 x 8 ?
+54
+0
+56
+1
+58
+0
+64
+0
+Quelle est la racine carree de 144 ?
+10
+0
+11
+0
+12
+1
+14
+0

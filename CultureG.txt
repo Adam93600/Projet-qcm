@@ -1,0 +1,23 @@
+CultureG
+2
+0
+1
+0
+Quels sont les langages de programmation ?
+Python
+1
+HTML
+0
+C++
+1
+JPEG
+0
+Quels pays ont une frontiere commune avec la France ?
+Espagne
+1
+Italie
+1
+Portugal
+0
+Allemagne
+1
