@@ -1,6 +1,6 @@
 # QCM-PROJET
 
-Un gestionnaire de QCM en terminal développé en C.
+Un gestionnaire de QCM en terminal développé en C.  
 
 ## Description
 
