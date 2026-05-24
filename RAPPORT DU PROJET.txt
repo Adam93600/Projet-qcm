@@ -1,0 +1,19 @@
+RAPPORT DU PROJET :
+
+Notre groupe est composé de Badis Megherbi, Adam Farhat et Youva Amnache. Nous avons codé ensemble via Discord et ses partages d'écran, et avec l'application Visual Studio Code. On travaillait de la manière suivante : on se donne quoi faire chacun sur discord puis on fait une mise en commun en s'envoyant les codes et on s'entraide via les partages d'écran.
+Nous avons choisi ce projet car il permet de mettre en pratique plusieurs notions importantes de programmation comme les conditions, les boucles, les fonctions et la gestion des réponses utilisateur.
+
+
+Nous avons ainsi commencé par le main qui affiche un menu avec trois choix : mode étudiant, mode professeur, ou quitter. On a ensuite séparé le code en plusieurs fichiers : prof.c pour la création de QCM, eleve.c pour les passer, et storage.c pour la sauvegarde et le chargement.
+
+Un problème qu'on a rencontré assez tôt c'est la gestion des saisies utilisateur. Quand on utilisait scanf, le '\n' restait dans le buffer et faisait buguer les lectures suivantes. On a donc créé une fonction viderTampon() qu'on appelle régulièrement pour nettoyer ça.
+
+On a aussi remarqué qu'on ne vérifiait pas certaines entrées, par exemple on pouvait créer une question sans aucune bonne réponse, ou entrer un nombre de questions invalide. On a corrigé ça en rajoutant des boucles de vérification aux bons endroits ou meme si on mettait que des réponses fausses ca marchait quand meme, on a ainsi corrigé plein de choses de ce style.
+
+Côté étudiant, on avait un bug où les minuscules n'étaient pas reconnues comme réponses valides, on a donc ajouté une conversion automatique vers les majuscules. On a aussi géré deux modes de passage : séquentiel où la réponse est obligatoire, et libre où on peut passer une question en tapant 0.
+
+Enfin, les QCM sont sauvegardés dans des fichiers .txt et une fonction liste automatiquement ceux disponibles pour que l'étudiant sache quoi choisir.
+
+C'est ainsi en progressant et en corrigeant nos erreurs pendant les réunions discord on a pu atteindre l'objectif du projet.
+
+Megherbi Badis, Farhat Adam, Amnache Youva
