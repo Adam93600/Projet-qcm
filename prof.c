@@ -69,7 +69,7 @@ void modeprof() {
             printf("\nQuestion %d : ", i + 1);
             // Utilisation de fgets pour lire une ligne complète avec espaces
             fgets(nouveau.listeQuestions[i].texte, 256, stdin);
-            // Suppression du caractère newline à la fin
+            
             nouveau.listeQuestions[i].texte[strcspn(nouveau.listeQuestions[i].texte, "\n")] = 0;
 
             // Saisie des 4 options de réponse pour cette question
