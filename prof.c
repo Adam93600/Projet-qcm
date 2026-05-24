@@ -76,7 +76,7 @@ void modeprof() {
             for (int j = 0; j < 4; j++) {
                 printf("  Option %c : ", 'A' + j);
                 fgets(nouveau.listeQuestions[i].options[j], 100, stdin);
-                // Nettoyage du newline
+                
                 nouveau.listeQuestions[i].options[j][strcspn(nouveau.listeQuestions[i].options[j], "\n")] = 0;
                 
                 // Le professeur spécifie si cette option est une bonne réponse (1) ou non (0)
