@@ -1,4 +1,4 @@
-# QCM-CY-TECH
+# QCM-PROJET
 
 Un gestionnaire de QCM en terminal développé en C.
 
